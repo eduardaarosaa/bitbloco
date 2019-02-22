@@ -1,60 +1,30 @@
-@charset "utf-8";
-/* CSS Document */
-
-body {
-	background-color:#2D3142;
-	-moz-background-size: 100% 100%;
-	-webkit-background-size: 100% 100%;
-	background-size: 100% 100%;
+.container{
+	border:2px solid Yellow;
+	min-height:500px;
+	min-width:750px;	
 }
 
-#general {
-	height:1300px;
-	width:1300px;
-	margin:auto;
+.divEspaco{
+	border:2px solid Yellow;
+	min-height:30px;
 }
 
-#top {
-	float:left;
-	height:100px;
-	width:1300px;
-	background-color:#A6A6A6;
+.divLogo{
+	border:2px solid Yellow;
+
 }
 
-#slogam {
-	float:left;
-	height:50px;
-	width:1000px;
-	margin-top:25px;
-	margin-bottom:25px;
-	margin-left:100px;
-	margin-right:100px;
-	background-color:#0FF;
+.div2{
+	border:2px solid Yellow;
+	min-height:15px;
 }
 
-#logo {
-	float:left;
-	height:100px;
-	width:100px;
-	background-color:#0F0;
-	
+.divMenu{
+	border: 2px solid Yellow;
+	min-height: 500px;
 }
 
-#menu {
-	float:left;
-	width:250px;
-	min-height:800px;
-	margin-top:30px;
-	background-color:#206FF5;
-}
-
-#ranking {
-	float:left;
-	width:900px;
-	min-height:800px;
-	margin-top:30px;
-	margin-bottom:0px;
-	margin-left:100px;
-	margin-right:0px;
-	background-color:#BFC0C0;
+.divRanking{
+	border:2px solid Yellow;
+	min-height:500px;
 }

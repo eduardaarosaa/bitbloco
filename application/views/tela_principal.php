@@ -1,29 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BitBloco - Painel Principal </title>
-<link href="../../style/estilo.css" rel="stylesheet" type="text/css" />
+<!doctype html>
+<html>
 
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-<div id="general">
-	<div id="top">
-    	<div id="logo">
-        <img src="../../image/icone.png" height="100px" width="100px"/>
-        </div>
-        <div id="slogam">
-        <h3 align="center"> Aqui vai um texto animado e/ou slogam </h1>        	
-        </div>
-    </div>
-	<div id="menu">
-    <!-- <h3 align="justify"> <font color="#FFFFFF"> Aqui vai o Menu </font> </h3> -->
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     
-    </div>
-    <div id="ranking">
-    <h1 align="center"> Aqui vai o ranking </h1>
-    </div>
-</div>
-</body>
+    <!-- tag do projeto -->
+    <link href="../../style/estilo.css" rel="stylesheet"/>
+
+
+    <title> BitBloco - Painel Principal </title>
+  </head>
+
+  <body style="background-color:#2D3142">
+	<div class="container">
+		<div class="row">
+			<div class="col-2 divLogo">
+			<img src="../../image/icone.png" align="center">
+			</div>
+			<div class="col-9 div2"> Banner ou NavBAR</div>
+			<div class="col-1 divEspaco"> </div>
+			
+		</div>
+		<div class="row">
+			<div class="col-12 divEspaco"></div>
+		</div>
+		<div class="row">
+			<div class="col-2 divMenu"></div>
+			<div class="col-1 divEspaco"></div>
+			<div class="col-7 divRanking">Ranking</div>
+			<div class="col-2 divEspaco"></div>
+		</div>			
+
+	</div>
+
+
+  </body>
 </html>
