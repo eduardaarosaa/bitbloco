@@ -1,6 +1,13 @@
+body 
+{
+	background-color:#EEE;
+	/*background-image:url(../image/principal_fundo.png);*/
+}
+
 .container{
+	margin-top:20px;
 	min-height:768px;
-	min-width:1280px;
+	min-width:1024px;
 }
 
 .divEspaco{
@@ -8,23 +15,65 @@
 }
 
 .divLogo{
-	min-height:15px;
+	height:60px;
+
+	background:url(../image/icone.png);
+	background-repeat:no-repeat;
+	background-size:60px;
 }
 
 .divNavbar{
 	min-height:15px;
+	background-color:#206FF5;
 }
 
 .divMenu{
+	background-color:#2D3142;
 	min-height: 500px;
 }
 
 .divRanking{
-	min-height:500px;
+	border: 10px solid black;
 }
 
 .btn-dark
 {
 	height:40px;
 	width:100px;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0,2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
 }

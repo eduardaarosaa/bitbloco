@@ -16,19 +16,17 @@
     
   </head>
   
-  <body style="background-color:#BFC0C0">
+  <body>
   
 	<div class="container">
-    	<div class="row">
-			<div class="col-12 divEspaco"></div>
-		</div>
 		<div class="row">
-			<div class="col-2 divLogo"><img src="../../image/icone.png" align="center"></div>
-			<div class="col-9 divNavbar" style="background-color:#206FF5">
+			<div class="col-1 divLogo"></div>
+			<div class="col-10 divNavbar">
 				<nav class="navbar navbar-inverse">
   					<div class="container-fluid">
     					<div class="navbar-header">
-      					<a class="navbar-brand" href="../../README.md" title="Informações do projeto"><font color="#A6A6A6">BitBloco - Seu simulador de cryptotransações</font></a>
+      					<a class="navbar-brand" href="../../README.md" title="Informações do projeto">
+                        <font color="#FFF">Seu simulador de cryptotransações</font></a>
     					</div>
     					<form class="navbar-form navbar-left" action="/action_page.php">
       						<div class="input-group">
@@ -44,21 +42,33 @@
   					</div>
 				</nav>
             </div>
-			<div class="col-1 divEspaco"> </div>
-			
+			<div class="col-1 divEspaco"><img src="../../image/user.png" height="60" width="60"></div>		
 		</div>
 		<div class="row">
 			<div class="col-12 divEspaco"></div>
 		</div>
 		<div class="row">
-			<div class="col-2 divMenu"></div>
+			<div class="col-2 divMenu">
+                		<ul class="sidebar-nav">
+                        	<li> <h3> <font color="#FFF"> Menu </font> </h3> </li>	
+                            <li> <a href="#">Depósito</a> </li>
+                    		<li> <a href="#">Histórico</a> </li>
+                    		<li> <a href="#">Comprar</a> </li>
+                    		<li> <a href="#">Carteira</a> </li>
+                    		<li> <a href="#">Configurações</a> </li>
+                    		<li> <a href="#">Suporte</a> </li>
+							<br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                    		<li> <a href="#">Sair</a> </li>
+                		</ul>
+			</div>
 			<div class="col-1 divEspaco"></div>
-			<div class="col-7 divRanking">Ranking</div>
-			<div class="col-2 divEspaco"></div>
+			<div class="col-7 divRanking">Aqui vai o Ranking</div>
+			<div class="col-1 divEspaco"></div>
 		</div>			
-
 	</div>
-
-
   </body>
 </html>
