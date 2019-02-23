@@ -27,4 +27,15 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('tela_principal');
 	}
+	
+	public function tela_login()
+	{
+		$this->tela_login()->view('tela_login');
+	}
+	
+	public function tela_cadastro()
+	{
+		$this->tela_cadastro()->view('tela_cadastro');	
+	}
+	
 }

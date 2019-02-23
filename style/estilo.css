@@ -1,30 +1,30 @@
 .container{
-	border:2px solid Yellow;
-	min-height:500px;
-	min-width:750px;	
+	min-height:768px;
+	min-width:1280px;
 }
 
 .divEspaco{
-	border:2px solid Yellow;
 	min-height:30px;
 }
 
 .divLogo{
-	border:2px solid Yellow;
-
+	min-height:15px;
 }
 
-.div2{
-	border:2px solid Yellow;
+.divNavbar{
 	min-height:15px;
 }
 
 .divMenu{
-	border: 2px solid Yellow;
 	min-height: 500px;
 }
 
 .divRanking{
-	border:2px solid Yellow;
 	min-height:500px;
+}
+
+.btn-dark
+{
+	height:40px;
+	width:100px;
 }
