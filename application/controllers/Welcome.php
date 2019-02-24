@@ -33,9 +33,8 @@ class Welcome extends CI_Controller {
 		$this->tela_login()->view('tela_login');
 	}
 	
-	public function tela_cadastro()
-	{
-		$this->tela_cadastro()->view('tela_cadastro');	
+	public function cadastro(){
+		$this->load->view('cadastro');
 	}
 	
 }
