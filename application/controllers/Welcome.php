@@ -36,5 +36,9 @@ class Welcome extends CI_Controller {
 	public function cadastro(){
 		$this->load->view('cadastro');
 	}
+	public function tela_transferencia(){
+		$this->load->view('header');
+		$this->load->view('transaferencia');
+	}
 	
 }
