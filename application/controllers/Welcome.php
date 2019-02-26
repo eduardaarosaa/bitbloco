@@ -22,29 +22,20 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
-	
 	public function tela_principal()
 	{
 		$this->load->view('tela_principal');
 	}
-	
 	public function tela_login()
 	{
 		$this->load->view('tela_login');
 	}
 	
-<<<<<<< HEAD
 	public function cadastro(){
 		$this->load->view('cadastro');
 	}
 	public function tela_transferencia(){
 		$this->load->view('header');
 		$this->load->view('transaferencia');
-=======
-	public function tela_cadastro()
-	{
-		$this->load()->view('tela_cadastro');	
->>>>>>> 269c3293a4c0771dde1c28561110571530d0cee6
-	}
-	
+	}	
 }

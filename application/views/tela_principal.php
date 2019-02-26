@@ -51,12 +51,10 @@
 			<div class="col-2 divMenu">
                 		<ul class="sidebar-nav">
                         	<li> <h3> <font color="#FFF"> Menu </font> </h3> </li>	
-                            <li> <a href="#">Depósito</a> </li>
-                    		<li> <a href="#">Histórico</a> </li>
-                    		<li> <a href="#">Comprar</a> </li>
-                    		<li> <a href="#">Carteira</a> </li>
-                    		<li> <a href="#">Configurações</a> </li>
-                    		<li> <a href="#">Suporte</a> </li>
+                            <li> <a href="#">Carteira</a> </li>
+                    		<li> <a href="#">Transferência</a> </li>
+                    		<li> <a href="#">Blockchain</a> </li>
+                    		<li> <a href="#">Simulação</a> </li>
 							<br>
                             <br>
                             <br>
