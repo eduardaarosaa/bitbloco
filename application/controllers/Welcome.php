@@ -24,7 +24,9 @@ class Welcome extends CI_Controller {
 	}
 	public function tela_principal()
 	{
+		$this->load->view('header');
 		$this->load->view('tela_principal');
+		$this->load->view('rodape');
 	}
 	public function tela_login()
 	{
@@ -37,5 +39,6 @@ class Welcome extends CI_Controller {
 	public function tela_transferencia(){
 		$this->load->view('header');
 		$this->load->view('transaferencia');
+		$this->load->view('rodape');
 	}	
 }
