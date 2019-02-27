@@ -39,8 +39,9 @@
                 		</ul>
 			</div>
 			<div class="col-1 divEspaco"></div>
-			<div class="col-7 divRanking">Aqui vai o Ranking</div>
-			<div class="col-1 divEspaco"></div>			
-	</div>
-  </body>
-</html>
+			<div class="col-7 divRanking"></div>
+			<div class="col-1 divEspaco"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 divEspaço"></div>
+        </div>

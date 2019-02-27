@@ -1,7 +1,10 @@
 body 
 {
-	background-color:#EEE;
-	/*background-image:url(../image/principal_fundo.png);*/
+	 background: url(../image/FundoSite.jpg) center center no-repeat fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .container{
@@ -16,7 +19,6 @@ body
 
 .divLogo{
 	height:60px;
-
 	background:url(../image/icone.png);
 	background-repeat:no-repeat;
 	background-size:60px;
@@ -27,16 +29,17 @@ body
 	background-color:#206FF5;
 }
 
-.divRodape{
+.footer{
 	background-color: #BFC0C0; 
 }
+
 .divMenu{
 	background-color:#2D3142;
 	min-height: 500px;
 }
 
 .divRanking{
-	border: 10px solid black;
+	
 }
 
 .btn-dark

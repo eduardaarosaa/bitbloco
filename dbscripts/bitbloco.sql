@@ -1,51 +1,45 @@
-create schema bitbloco;
+/*
+Criação do banco de dados do bitbloco
+*/
+CREATE SCHEMA_NAME bitbloco;
 
 
 
-use bitbloco;
+/* Comando para designar qual diretório que será realizado o script */
+USE bitbloco;
 
 
-create table usuario
+
+/* Criação das tabelas */
+CREATE TABLE usuario
 (
-cd_usurio int primary key,
-cd_carteira int secundary key,
+cd_usurio integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
+cd_carteira int,
 nm_usuario varchar(40),
 dt_email varchar(50),
 nu_telefone int,
 nu_senha varchar(50)
 );
 
-create table carteira
+CREATE TABLE carteira
 (
-cd_carteira int primary key,
-cd_usuario int secundary key,
+cd_carteira int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+cd_usuario int,
 qt_bitcoin int
 );
 
-create table blockchain
+CREATE TABLE blockchain
 (
-cd_bloco int primary key,
+cd_bloco int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 cd_emissor int,
-cd remetente int,
+cd_remetente int,
 qt_bitcoin int,
 nu_no int
 );
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Designando as chaves estrangeiras */
+ALTER TABLE 'usuario' ADD CONSTRAINT '
 
 
 
