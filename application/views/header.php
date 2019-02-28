@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <!-- Tags necessárias para o funcionamento bootstrap -->
     <meta charset="utf-8">
@@ -14,30 +16,18 @@
   </head>
 
   <body>
-  
-	<div class="container">
-		<div class="row">
-			<div class="col-1 divLogo"></div>
-			<div class="col-10 divNavbar">
-				<nav class="navbar navbar-inverse">
-  					<div class="container-fluid">
-    					<div class="navbar-header">
-      					<a class="navbar-brand" href="../../README.md" title="Informações do projeto">
-                        <font color="#FFF">Seu simulador de cryptotransações</font></a>
-    					</div>
-    					<form class="navbar-form navbar-left" action="/action_page.php">
-      						<div class="input-group">
-        					<input type="text" class="form-control" placeholder="Search" name="search">
-        						<div class="input-group-btn">
-          							<button class="btn btn-dark" type="submit">
-                                    Pesquisar
-            						<i class="glyphicon glyphicon-search"></i>
-          							</button>
-        						</div>
-      						</div>
-    					</form>
-  					</div>
-				</nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 divNavbar">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                <img src="../../image/icone.png" height="50" width="50">
+                <a style="margin-left:15px" class="navbar-brand" href="../../README.md" title="Informações do projeto">
+                <font color="#FFF"> Bitbloco - Seu simulador de cryptos </font>
+                </a>
+              </div>
             </div>
-			<div class="col-1 divEspaco"><img src="../../image/user.png" height="60" width="60"></div>		
-		</div>
+        </nav>
+    </div>
+    </div>

@@ -1,6 +1,6 @@
-<div class="container">
-		<div class="footer">
+		<footer style="background-color: #BFC0C0">
 				<center>Todos os direitos reservados</center>
+				<!--
 				<table>
 					<td>
 						<tr>Politica de privacidade</tr>
@@ -12,9 +12,8 @@
 						<tr>Agradecimentos</tr>
 					</td>
 				</table>
+				-->
 				<center>Desenvolvido por: Eduarda, Felipe e Matheus</center>
-			</div>
-</div>
-
-</body>
+		</footer>
+	</body>
 </html>

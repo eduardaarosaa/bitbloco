@@ -1,5 +1,5 @@
-body 
-{
+/* aplicação do CSS em tags */
+body {
 	 background: url(../image/FundoSite.jpg) center center no-repeat fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -7,10 +7,17 @@ body
   	background-size: cover;
 }
 
-.container{
-	margin-top:20px;
-	min-height:768px;
-	min-width:1024px;
+ul {
+  list-style-type: none;
+}
+
+footer {
+ 
+}
+
+/* aplicação do CSS em classes */
+.container-fluid{
+	
 }
 
 .divEspaco{
@@ -25,12 +32,9 @@ body
 }
 
 .divNavbar{
-	min-height:15px;
-	background-color:#206FF5;
-}
-
-.footer{
-	background-color: #BFC0C0; 
+	height:60px;
+  margin-bottom: 10px;
+	background-color:#39C;
 }
 
 .divMenu{
@@ -42,6 +46,7 @@ body
 	
 }
 
+/* aplicação do CSS em tags do NavBar */
 .btn-dark
 {
 	height:40px;
