@@ -21,7 +21,7 @@
 
   <div class="container login">
 
-    <form class="form-signin">
+    <form class="form-signin" action="tela_principal">
       <h2 class="form-signin-heading"><img src="../../image/logoLogin.png"/></h2>
       <label for="inputUser" class="sr-only">Usuário</label>
       <input id="inputUser" class="form-control" placeholder="Usuário" required autofocus type="text">
@@ -31,8 +31,8 @@
       <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
 
       <div class="row">
-        <div class="col-md-6"><a class="btn btn-link" href="#" role="button">Esqueci a senha</a></div>
-        <div class="col-md-6"><a class="btn btn-link pull-right " href="#" role="button">Registrar</a></div>
+        <div class="col-md-7"><a class="btn btn-link" style="color: #ffffff" href="senha1" role="button">Esqueci a senha</a></div>
+        <div class="col-md-5"><a class="btn btn-link pull-right " style="color: #ffffff" href="cadastro" role="button">Registrar</a></div>
       </div>
 
 
