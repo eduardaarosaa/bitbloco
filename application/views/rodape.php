@@ -1,5 +1,5 @@
 		<footer style="background-color: #BFC0C0">
-				<center>Todos os direitos reservados</center>
+				<center><font color="#FFF"> Todos os direitos reservados </font></center>
 				<!--
 				<table>
 					<td>
@@ -13,7 +13,7 @@
 					</td>
 				</table>
 				-->
-				<center>Desenvolvido por: Eduarda, Felipe e Matheus</center>
+				<center><font color="#FFF"> Desenvolvido por: Eduarda, Felipe e Matheus </font></center>
 		</footer>
 	</body>
 </html>

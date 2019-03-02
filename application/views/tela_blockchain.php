@@ -17,34 +17,7 @@
                 </ul>
 			</div>
 			<div class="col-1 divEspaco"></div>
-			<div class="col-7 divRanking">
-				<h1 class="display-4" align="center" style="color: #FFF"> Ranking </h1>
-				<table class="table table-striped table-sm-3 table-bordered">	
-					<thead class="table-dark">
-						<tr>
-							<th><center>Nome</center></th>
-							<th><center>E-mail</center></th>
-							<th><center>Quantidade</center></th>
-					</thead>
-					<tbody>
-						<tr>
-							<td>nome 1</td>
-							<td>E-mail 1</td>
-							<td>qtd 1</td>
-						</tr>
-						<tr>
-							<td>nome 2</td>
-							<td>E-mail 2</td>
-							<td>qtd 2</td>
-						</tr>
-						<tr>
-							<td>nome 3</td>
-							<td>E-mail 3</td>
-							<td>qtd 3</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+			<div class="col-7"></div>
 			<div class="col-1 divEspaco"></div>
         </div>
         <div class="row">

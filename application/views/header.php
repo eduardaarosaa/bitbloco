@@ -22,7 +22,7 @@
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
               <div class="navbar-header">
-                <img src="../../image/icone.png" height="50" width="50">
+                <a href="tela_principal" title="ir para tela principal"><img src="../../image/icone.png" height="50" width="50"></a>
                 <a style="margin-left:15px" class="navbar-brand" href="../../README.md" title="Informações do projeto">
                 <font color="#FFF"> Bitbloco - Seu simulador de cryptos </font>
                 </a>

@@ -31,8 +31,8 @@
       <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
 
       <div class="row">
-        <div class="col-md-7"><a class="btn btn-link" style="color: #ffffff" href="senha1" role="button">Esqueci a senha</a></div>
-        <div class="col-md-5"><a class="btn btn-link pull-right " style="color: #ffffff" href="cadastro" role="button">Registrar</a></div>
+        <div class="col-md-7"><a class="btn btn-link" style="color: #ffffff" href="tela_senha" role="button">Esqueci a senha</a></div>
+        <div class="col-md-5"><a class="btn btn-link pull-right " style="color: #ffffff" href="tela_cadastro" role="button">Registrar</a></div>
       </div>
 
 
