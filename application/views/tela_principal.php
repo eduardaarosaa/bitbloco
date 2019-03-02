@@ -23,24 +23,24 @@
 					<thead class="table-dark">
 						<tr>
 							<th><center>Nome</center></th>
-							<th><center>E-mail</center></th>
 							<th><center>Quantidade</center></th>
+							<th><center>Posição</center></th>
 					</thead>
 					<tbody>
 						<tr>
 							<td>nome 1</td>
-							<td>E-mail 1</td>
 							<td>qtd 1</td>
+							<td>1</td>
 						</tr>
 						<tr>
 							<td>nome 2</td>
-							<td>E-mail 2</td>
 							<td>qtd 2</td>
+							<td>2</td>
 						</tr>
 						<tr>
 							<td>nome 3</td>
-							<td>E-mail 3</td>
 							<td>qtd 3</td>
+							<td>3</td>
 						</tr>
 					</tbody>
 				</table>
