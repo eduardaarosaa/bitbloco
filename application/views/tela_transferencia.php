@@ -7,7 +7,8 @@
         <br>
         <br>
         <li> <h3> <font color="#FFF"> Menu </font> </h3> </li>
-        <br>  
+        <br>
+        <li> <a href="tela_principal">Home</a> </li>  
         <li> <a href="tela_perfil">Meu Perfil</a> </li>
         <li> <a href="tela_carteira">Carteira</a> </li>
         <li> <a href="tela_transferencia">Transferência</a> </li>
@@ -40,10 +41,8 @@
 </div>
 
 <script>
-
 jQuery(window).load(function () {
       $(".loader").delay(1200).fadeOut("slow"); //retire o delay quando for copiar!
     $("#tudo_page").toggle("fast");
 });
-
 </script>

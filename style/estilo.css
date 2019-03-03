@@ -1,6 +1,6 @@
 /* aplicação do CSS em tags */
 body {
-	 background: url(../image/FundoSite.jpg) center center no-repeat fixed; 
+	  background: url(../image/FundoSite.jpg) center center no-repeat fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -22,6 +22,10 @@ footer {
 	
 }
 
+.jumbotron{
+  background-color: transparent;
+}
+
 .divEspaco{
 	min-height:30px;
 }
@@ -36,28 +40,25 @@ footer {
 .divNavbar{
 	height:60px;
   margin-bottom: 10px;
+  border-radius: 20px;
 	background-color:#39C;
+  background: linear-gradient(to right, #39C, #38F);
 }
 
 .divMenu{
-	background-color:#2D3142;
+  background-color: #BFC0C0;
+	background:linear-gradient(to bottom, #A6A6A6, #000);
 	min-height: 500px;
   margin-right: 10px;
 }
 
-.divRanking{
+.divConteudo{
 	
 }
 
 
 
 /* aplicação do CSS em tags do NavBar */
-.btn-dark
-{
-	height:40px;
-	width:100px;
-}
-
 .sidebar-nav li {
   text-indent: 20px;
   line-height: 40px;
@@ -80,7 +81,7 @@ footer {
 }
 
 .sidebar-nav>.sidebar-brand {
-  height: 65px;
+  max-height: 65px;
   font-size: 18px;
   line-height: 60px;
 }
@@ -92,4 +93,33 @@ footer {
 .sidebar-nav>.sidebar-brand a:hover {
   color: #fff;
   background: none;
+}
+
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
 }

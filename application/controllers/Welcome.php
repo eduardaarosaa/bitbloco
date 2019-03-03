@@ -42,6 +42,7 @@ class Welcome extends CI_Controller {
 	public function tela_principal()
 	{
 		$this->load->view('header');
+		$this->load->view('menu');
 		$this->load->view('tela_principal');
 		$this->load->view('rodape');
 	}
@@ -50,12 +51,14 @@ class Welcome extends CI_Controller {
 	public function tela_perfil()
 	{
 		$this->load->view('header');
+		$this->load->view('menu');
 		$this->load->view('tela_perfil');
 		$this->load->view('rodape');
 	}
 	public function tela_carteira()
 	{
 		$this->load->view('header');
+		$this->load->view('menu');
 		$this->load->view('tela_carteira');
 		$this->load->view('rodape');
 	}
@@ -67,12 +70,14 @@ class Welcome extends CI_Controller {
 	public function tela_blockchain()
 	{
 		$this->load->view('header');
+		$this->load->view('menu');
 		$this->load->view('tela_blockchain');
 		$this->load->view('rodape');
 	}
 	public function tela_simulacao()
 	{
 		$this->load->view('header');
+		$this->load->view('menu');
 		$this->load->view('tela_simulacao');
 		$this->load->view('rodape');
 	}
