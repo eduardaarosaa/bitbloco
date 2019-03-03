@@ -34,9 +34,12 @@
                 <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
                 <label for="inputPassword">Senha</label>
               </div>
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Entrar</button>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastrar</button>
+            
               <hr class="my-4">
             </form>
+            <a href="tela_login"><button class="btn btn-primary">Voltar</button></a>
+
           </div>
         </div>
       </div>
