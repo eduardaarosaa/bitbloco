@@ -1,64 +1,82 @@
-/*
-CriaÁ„o do banco de dados do bitbloco
+Ôªø/*
+Cria√ß√£o do banco de dados do bitbloco
 */
-CREATE SCHEMA_NAME bitbloco;
+
+CREATE DATABASE bitbloco;
 
 
 
-/* Comando para designar qual diretÛrio que ser· realizado o script */
+
+
+/* Comando para designar qual diret√≥rio que ser√° realizado o script */
+
 USE bitbloco;
 
 
 
-/* CriaÁ„o das tabelas */
+
+
+/* Cria√ß√£o das tabelas */
+
 CREATE TABLE usuario
 (
-cd_usurio integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
-cd_carteira int,
-nm_usuario varchar(40),
-ds_email varchar(50),
-nu_telefone int,
-nu_senha varchar(50) 
+
+cd_usurio int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+cd_carteira int NOT NULL,
+
+nm_usuario varchar(40) NOT NULL,
+
+ds_email varchar(50) NOT NULL,
+
+nu_telefone int NOT NULL,
+
+nu_senha varchar(50) NOT NULL 
+
 );
  
+
+
 CREATE TABLE carteira
 (
+
 cd_carteira int NOT NULL AUTO_INCREMENT PRIMARY KEY,
-cd_usuario int,
-nm_usuario varchar(50),
-qt_bitcoin int
+
+cd_usuario int NOT NULL,
+
+nm_usuario varchar(50) NOT NULL,
+
+qt_bitcoin int NOT NULL
+
 );
+
+
 
 CREATE TABLE blockchain
 (
+
 cd_bloco int NOT NULL AUTO_INCREMENT PRIMARY KEY,
-cd_emissor int,
-cd_remetente int,
-qt_bitcoin int,
-nu_no int
+
+cd_emissor int NOT NULL,
+
+cd_remetente int NOT NULL,
+
+qt_bitcoin int NOT NULL,
+
+nu_no int 
+
 );
 
 
+
+
 /* Designando as chaves estrangeiras */
-ALTER TABLE 'usuario' ADD CONSTRAINT fk_cd_carteira FOREIGN KEY (cd_carteira) REFERENCES carteira;
-ALTER TABLE 'carteira' ADD CONSTRAINT fk_cd_usuario FOREIGN KEY (cd_usuario) REFERENCES usuario;
-ALTER TABLE 'carteira' ADD CONSTRAINT fk_nm_usuario FOREIGN KEY (nm_usuario) REFERENCES usuario;
 
 
+ALTER TABLE `usuario` ADD CONSTRAINT `fk_cd_carteira` FOREIGN KEY (`cd_carteira`) REFERENCES `carteira`(`cd_carteira`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+ALTER TABLE `carteira` ADD CONSTRAINT `fk_cd_usuario` FOREIGN KEY (`cd_usuario`) REFERENCES `usuario`(`cd_usurio`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+/*
+ALTER TABLE carteira ADD CONSTRAINT fk_cd_usuario FOREIGN KEY usuario(cd_usuario) REFERENCES usuario;
 
-
-
-
-
-
-
-
-
-
-
-insert into test1.homologado (cd_fornecedor, nm_fornecedor, nu_cnpj, nm_contato, nm_email, nu_telefone) values (
-1, 'teste', 123, 'matheus', 'teste@teste', 11);
-
-
-
-select * from test1.homologado where cd_fornecedor = 1;
+ALTER TABLE carteira ADD CONSTRAINT fk_nm_usuario FOREIGN KEY usuario(nm_usuario) REFERENCES usuario;
+*/
