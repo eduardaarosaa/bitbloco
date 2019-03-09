@@ -1,19 +1,8 @@
-		<footer style="background-color: #BFC0C0">
-				<center><font color="#FFF"> Todos os direitos reservados </font></center>
-				<!--
-				<table>
-					<td>
-						<tr>Politica de privacidade</tr>
-						<br>
-						<tr>Termos & Condições</tr>
-						<br>
-						<tr>Sobre</tr>
-						<br>
-						<tr>Agradecimentos</tr>
-					</td>
-				</table>
-				-->
-				<center><font color="#FFF"> Desenvolvido por: Eduarda, Felipe e Matheus </font></center>
-		</footer>
+		<div class="row">
+			<div class="col-12 footer">
+			<center>© Copyright - todos os direitos reservados</center>
+			</div>
+		</div>
+	</div>
 	</body>
 </html>

@@ -1,6 +1,7 @@
 /* aplicação do CSS em tags */
 body {
-	background: url(../image/FundoSite1.jpg) center center no-repeat fixed;
+	background: url(../image/FundoSite.jpg) center center no-repeat fixed;
+  visibility: 50%;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -11,8 +12,11 @@ ul {
   list-style-type: none;
 }
 
-footer {
+.footer {
   margin-top: 10px;
+  color: #FFF;
+  height: 5%;
+  background-color: #a6a6a6;
 }
 
 
@@ -39,15 +43,12 @@ footer {
 
 .divNavbar{
 	height:60px;
-  margin-bottom: 10px;
-  border-radius: 20px;
 	background-color:#39C;
   background: linear-gradient(to right, #39C, #38F);
 }
 
 .divMenu{
-  background-color: #BFC0C0;
-	background:linear-gradient(to bottom, #A6A6A6, #000);
+  background-color: #000;
 	min-height: 500px;
   margin-right: 10px;
 }

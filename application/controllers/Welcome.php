@@ -64,6 +64,7 @@ class Welcome extends CI_Controller {
 	}
 	public function tela_transferencia(){
 		$this->load->view('header');
+		$this->load->view('menu');
 		$this->load->view('tela_transferencia');
 		$this->load->view('rodape');
 	}	
