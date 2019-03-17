@@ -1,4 +1,6 @@
-  <div class="col-9 jumbotron">
+            <div class="col-1 divEspaco"></div>
+      <div class="col-7 divConteudo">
+        <div class="jumbotron">
     <h1 class="display-4">Transferência</h1>
     <p class="lead">Você pode realizar transferências de bitcoin, basta ter o número da carteira de quem deseja enviar, fácil e rápido.</p>
     <hr class="my-4">
@@ -14,10 +16,14 @@
     </form>
   </div>
 </div>
-
-<script>
-jQuery(window).load(function () {
-      $(".loader").delay(1200).fadeOut("slow"); //retire o delay quando for copiar!
-    $("#tudo_page").toggle("fast");
-});
-</script>
+     </div>
+      <div class="col-1 divEspaco">
+            
+            </div>
+        <!-- fechando a linha que inicia no arquivo menu.php -->
+        </div>
+        <div class="row">
+            <div class="col-12 divEspaço">
+            
+            </div>
+        </div>

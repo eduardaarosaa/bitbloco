@@ -1,7 +1,10 @@
-			<div class="col-9 divConteudo jumbotron">
-				<h1 class="display-4"> Ranking </h1>
+            <div class="col-1 divEspaco"></div>
+			<div class="col-7 divConteudo">
+                <div class="jumbotron">
+				
+               <h1 class="display-4"> Ranking </h1>
 				<p class="lead">Deseja ficar entre os primeiros colocados?</p>
-				<p>Acessem a sua área para depositar e comprar mais bitcoins</p>
+				<p>Minere um bitcoin ns prova de trabalho</p>
 				<hr class="my-4">
 				<table class="table table-striped table-sm-3 table-bordered">	
 					<thead class="table-dark">
@@ -29,5 +32,14 @@
 					</tbody>
 				</table>
 			</div>
-		<!-- fechando a linha que inicia no arquivo menu.php -->
+        </div>
+			<div class="col-1 divEspaco">
+            
+            </div>
+        <!-- fechando a linha que inicia no arquivo menu.php -->
+        </div>
+        <div class="row">
+            <div class="col-12 divEspaço">
+            
+            </div>
         </div>

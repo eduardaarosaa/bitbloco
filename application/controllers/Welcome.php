@@ -83,6 +83,14 @@ class Welcome extends CI_Controller {
 		$this->load->view('rodape');
 	}
 
+	public function tela_jogando(){
+
+		$this->load->view('header');
+		$this->load->view('menu');
+		$this->load->view('tela_jogando');
+		$this->load->view('rodape');
+	}
+
 	
 
 }

@@ -1,6 +1,7 @@
             <div class="col-1 divEspaco"></div>
 			<div class="col-7 divConteudo">
-				<h1 class="display-4" align="center"> Carteira</h1>
+                <div class="jumbotron">
+				<h2 class="display-4" align="center"> Carteira</h2>
 				
                 <?php
                 include("arohamQR.php");
@@ -8,16 +9,17 @@
                 echo "<div class='row'>";
                 echo "<div class='col-md-12' align='center'>";
 			$arohamQR->text("033558545666844775"); // ( TEXT )
-            echo "<img src='".$arohamQR->get_link()."' border='0' width='280'/>";
+            echo "<img src='".$arohamQR->get_link()."' border='0' width='180'/>";
             echo "</div>";
             echo "</div>";
             echo "<div class='row'>";
             echo "<div class='col-md-12'>";
-            echo "<h3 align='center'>Quantidade:</h3>";
+            echo "<h4 align='center'>Quantidade:</h4>";
             echo "</div>";
             echo "</div>";
 		    ?>
 			</div>
+        </div>
 			<div class="col-1 divEspaco">
             
             </div>

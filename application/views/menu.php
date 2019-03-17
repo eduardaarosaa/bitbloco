@@ -9,8 +9,7 @@
                     <li> <a href="tela_perfil">Perfil</a> </li>
                     <li> <a href="tela_carteira">Carteira</a> </li>
                     <li> <a href="tela_transferencia">Transferência</a> </li>
-                    <li> <a href="tela_simulacao">Proof Of Work</a> </li>
-                    <li> <a href="tela_blockchain">Blockchain</a> </li>
+                    <li> <a href="tela_simulacao">Prova de trabalho</a> </li>
                     <br>
                     <br>
                     <br>

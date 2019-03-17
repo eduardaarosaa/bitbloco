@@ -15,20 +15,15 @@ ul {
 .footer {
   margin-top: 10px;
   color: #FFF;
-  height: 5%;
+  height: 3cm!important;
   background-color: #a6a6a6;
 }
 
 
 
 /* aplicação do CSS em classes */
-.container-fluid{
-	
-}
 
-.jumbotron{
-  background-color: transparent;
-}
+
 
 .divEspaco{
 	min-height:30px;

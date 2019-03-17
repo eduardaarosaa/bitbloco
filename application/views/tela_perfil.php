@@ -16,7 +16,6 @@
 		margin-top:-40px;
 		}
 </style>
-<img src="../../image/perfilimg.png" alt=”some text” width=150 height=150 id="perfilimg"/>
 
 <style type="text/css">
 	#textosperfil0 {
