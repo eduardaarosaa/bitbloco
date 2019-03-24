@@ -4,7 +4,7 @@
 				
                <h1 class="display-4"> Ranking </h1>
 				<p class="lead">Deseja ficar entre os primeiros colocados?</p>
-				<p>Minere um bitcoin ns prova de trabalho</p>
+				<p>Minere um bitcoin na prova de trabalho</p>
 				<hr class="my-4">
 				<table class="table table-striped table-sm-3 table-bordered">	
 					<thead class="table-dark">
@@ -14,21 +14,20 @@
 							<th><center>Quantidade</center></th>
 					</thead>
 					<tbody>
+
+						<?php 
+					
+						//foreach($dados as $row){ ?>
+
+
+						
 						<tr>
 							<td>1</td>
-							<td>nome 1</td>
+							<td></td>
 							<td>qtd 1</td>
 						</tr>
-						<tr>
-							<td>2</td>
-							<td>nome 2</td>
-							<td>qtd 2</td>							
-						</tr>
-						<tr>
-							<td>3</td>
-							<td>nome 3</td>
-							<td>qtd 3</td>							
-						</tr>
+						<?php //} ?>
+						
 					</tbody>
 				</table>
 			</div>

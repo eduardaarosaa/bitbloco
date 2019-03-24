@@ -16,26 +16,31 @@
             <img src="../../image/logo_semfundo.png" class="img-responsive centralizar" width="100px" align="center">
 </div>
 </div>
+          <?php
+             echo form_open_multipart('welcome/adduser');
+           ?>
             <form class="form-signin">
             <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Nome" required autofocus>
+                <input type="text" id="inputEmail" name="nome" class="form-control" placeholder="Nome" required autofocus>
                 <label for="inputEmail">Nome</label>
               </div>
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
+                <input type="email" id="inputEmail" name="email" class="form-control" placeholder="E-mail" required autofocus>
                 <label for="inputEmail">E-mail</label>
               </div>
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Telefone" required autofocus>
+                <input type="text" id="inputEmail" name="telefone" class="form-control" placeholder="Telefone" required autofocus>
                 <label for="inputEmail">Telefone</label>
               </div>
 
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                <input type="password" id="inputPassword" name="senha" class="form-control" placeholder="Senha" required>
                 <label for="inputPassword">Senha</label>
               </div>
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastrar</button>
-            
+              <?php
+                echo form_close();
+              ?>
               <hr class="my-4">
             </form>
             <a href="tela_login"><button class="btn btn-primary">Voltar</button></a>

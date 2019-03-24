@@ -5,6 +5,20 @@
 				
 
 			<div class="col-7">
+            <div class="jumbotron">
+
+                <?php
+               
+                $array = get_object_vars($dados[0]);
+
+                //var_dump($array);
+                
+                foreach($array as $row){
+                    echo $row;
+                   
+                }
+                ?>
+        </div>
 				
 			</div>
 			<div class="col-1 divEspaco"></div>

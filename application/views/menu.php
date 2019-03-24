@@ -13,6 +13,6 @@
                     <br>
                     <br>
                     <br>
-                    <li> <a href="tela_login">Sair</a> </li>
+                    <li> <a href="logout">Sair</a> </li>
                 </ul>
 			</div>		
