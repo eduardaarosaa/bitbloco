@@ -32,6 +32,10 @@ class Model_principal extends CI_Model{
         
     }
 
+    public function ranking(){
+        return $this->db->query("select * from usuario inner join carteira on usuario.id = carteira.num_carteira")->result();
+    }
+
 
 
 }

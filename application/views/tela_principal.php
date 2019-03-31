@@ -19,7 +19,11 @@
 					
 						//foreach($dados as $row){ ?>
 
+						<?php 
 
+							var_dump($dados);
+
+							?>
 						
 						<tr>
 							<td>1</td>

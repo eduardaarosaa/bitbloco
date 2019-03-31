@@ -1,0 +1,18 @@
+.navbar{
+    background-color:#338EEF!important;
+  }
+  .navbar a{
+    color:#fff!important;
+  }
+  .h4{
+      color:#338EEF!important;
+  }
+  .espaço{
+      margin-top:1cm!important;
+  }
+
+  .fundo{
+      width: 100%;
+      height: 20%;
+      background-image:url("../../image/FundoSite.jpg");
+  }

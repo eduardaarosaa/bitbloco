@@ -14,7 +14,7 @@
             echo "</div>";
             echo "<div class='row'>";
             echo "<div class='col-md-12'>";
-            echo "<h4 align='center'>Quantidade:</h4>";
+            echo "<h4 align='center'>Quantidade: 10</h4>";
             echo "</div>";
             echo "</div>";
 		    ?>

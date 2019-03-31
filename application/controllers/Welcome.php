@@ -178,6 +178,15 @@ class Welcome extends CI_Controller {
 
 					public function questoes(){
 						$dados['dados'] = $this->Model_principal->questoes();
+						$this->load->view('tela_jogando',$dados);
+					}
+
+					public function ranking(){
+						$dados['dados'] = $this->Model_principal->ranking();
 						$this->load->view('tela_principal',$dados);
+					}
+
+					public function site(){
+						$this->load->view('site');
 					}
 	}
