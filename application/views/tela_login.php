@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title> Login </title>
+  <title> Bitbloco - Acesso </title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +18,10 @@
 </head>
 
 <body>
-
-  <div class="container login">
-
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
     <form class="form-signin" action="tela_principal">
       <h2 class="form-signin-heading"><img src="../../image/logoLogin.png"/></h2>
       <label for="inputUser" class="sr-only">Usuário</label>
@@ -37,6 +38,9 @@
 
 
     </form>
+  </div>
+</div>
+</div>
 
   		</div> <!-- /container -->
 	</body>
