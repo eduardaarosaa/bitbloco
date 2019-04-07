@@ -101,6 +101,10 @@ ul {
     height: auto;
     position: relative;
   }
+
+  .a btn btn-link{
+    color:#000!important;
+  }
   .sidebar a {float: left;}
   div.content {margin-left: 0;}
 }
@@ -119,4 +123,5 @@ ul {
   height: 100%;
   overflow: auto;
 }
+
 

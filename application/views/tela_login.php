@@ -23,19 +23,24 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
     <form class="form-signin" action="tela_principal">
+    <?php
+         		    echo form_open_multipart('Welcome/login');
+           		?>
       <h2 class="form-signin-heading"><img src="../../image/logoLogin.png"/></h2>
       <label for="inputUser" class="sr-only">Usuário</label>
-      <input id="inputUser" class="form-control" placeholder="Usuário" required autofocus type="text">
+      <input id="inputUser" name="email" class="form-control" placeholder="Usuário" required autofocus type="text">
       <label for="inputPassword" class="sr-only">Password</label>
-      <input id="inputPassword" class="form-control" placeholder="Senha" required type="password">
+      <input id="inputPassword" name="senha" class="form-control" placeholder="Senha" required type="password">
       
       <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
 
       <div class="row">
-        <div class="col-md-7"><a class="btn btn-link" style="color: #ffffff" href="tela_senha" role="button">Esqueci a senha</a></div>
-        <div class="col-md-5"><a class="btn btn-link pull-right " style="color: #ffffff" href="tela_cadastro" role="button">Registrar</a></div>
+        <div class="col-md-7"><a class="btn btn-link" style="color: #000" href="tela_senha" role="button">Esqueci a senha</a></div>
+        <div class="col-md-5"><a class="btn btn-link pull-right " style="color: #000" href="tela_cadastro" role="button">Registrar</a></div>
       </div>
-
+      <?php
+ 					 echo form_close ();
+ 			 		?>
 
     </form>
   </div>
