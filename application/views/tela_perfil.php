@@ -17,17 +17,8 @@
 		}
 </style>
 
-<style type="text/css">
-	#textosperfil0 {
-		position:absolute;
-		left:50%;
-		top:15%;
-		margin-left:-110px;
-		margin-top:-40px;
-		}
-</style>
 
-<div class="informacoes0" id="textosperfil0">
+<div class="informacoes0" style='position:absolute;left:50%;top:15%;margin-left:-110px;margin-top:-40px;'>
 
 	<div class="informacoes-2">
 
@@ -38,17 +29,9 @@
     </div>   
 
 
-<style type="text/css">
-	#textosperfil {
-		position:absolute;
-		left:50%;
-		top:25%;
-		margin-left:-110px;
-		margin-top:-40px;
-		}
-</style>
 
-<div class="informacoes" id="textosperfil">
+
+<div class="informacoes" style='position:absolute;left:50%;top:25%;margin-left:-110px;margin-top:-40px;'>
 
 	<div class="informacoes-2">
 
@@ -78,17 +61,9 @@
 
 </div>
 
-<style type="text/css">
-	#textosperfil2 {
-		position:absolute;
-		left:60%;
-		top:25%;
-		margin-left:-110px;
-		margin-top:-40px;
-		}
-</style>
 
-<div class="informacoesv2" id="textosperfil2">
+
+<div class="informacoesv2" style='position:absolute;left:60%;top:25%;margin-left:-110px;margin-top:-40px;'>
 
 	<div class="informacoes-6">
 
