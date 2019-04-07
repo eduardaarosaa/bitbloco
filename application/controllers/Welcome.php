@@ -50,7 +50,7 @@ class Welcome extends CI_Controller {
 	public function tela_principal()
 
 	{
-		$dados['dados'] = $this->Model_principal->questoes();
+		$dados['dados'] = $this->Model_principal->ranking();	
 		$this->load->view('header');
 		$this->load->view('menu');
 		$this->load->view('tela_principal',$dados);
@@ -115,7 +115,8 @@ class Welcome extends CI_Controller {
 				'nome' => $this->input->post('nome'),
 				'email' => $this->input->post('email'),
 				'telefone' => $this->input->post('telefone'),
-				'senha' => $this->input->post('senha')
+				'senha' => $this->input->post('senha'),
+			
 			   
 			);
 			

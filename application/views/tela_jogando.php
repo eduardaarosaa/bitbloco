@@ -11,6 +11,7 @@
                
                 $array = get_object_vars($dados[0]);
 
+
                 //var_dump($array);
                 
                 foreach($array as $row){
