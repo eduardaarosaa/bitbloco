@@ -1,3 +1,4 @@
+
 			<div class="col-1 divEspaco">
 				
 
@@ -7,8 +8,12 @@
 			<div class="col-7">
             <div class="jumbotron">
 
+           
+
                 <?php
-               
+                                    
+                echo form_open_multipart('Welcome/resposta');
+                                    
                 $array = get_object_vars($dados[0]);
 
 
@@ -18,7 +23,16 @@
                     echo $row;
                    
                 }
+
+                
                 ?>
+                <input type='text' name='reposta'>
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+
+                <?php
+ 					 echo form_close ();
+ 			 		?>
         </div>
 				
 			</div>

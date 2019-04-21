@@ -1,9 +1,12 @@
 <?php
 if ( $this->session->userdata('login') == true ) {  
 		$nome = $this->session->userdata('nome');
+		$cod = $this->session->userdata('cod');
+		$quantidade = $this->session->userdata('quantidade');
+	
    
 } else { 
-	redirect("Welcome/tela_login", 'redirect');
+	redirect("Welcome/login", 'redirect');
 	
 	} 
 ?> 
@@ -25,9 +28,11 @@ if ( $this->session->userdata('login') == true ) {
 					<tbody>
 
 						<?php 
-
+					
+					
+						//var_dump($data);
 						$cont = 1;
-						foreach($dados as $row){ ?>
+						foreach($data as $row){ ?>
 						
 						<tr>
 							<td><?php echo $cont++;?></td>

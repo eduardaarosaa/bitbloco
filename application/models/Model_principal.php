@@ -8,6 +8,7 @@ class Model_principal extends CI_Model{
     public function adduser($data){
 
         return $this->db->insert('usuario', $data);
+        
     }
 
     public function login($dados){
@@ -33,9 +34,30 @@ class Model_principal extends CI_Model{
     }
 
     public function ranking(){
-        return $this->db->query("select * from usuario inner join carteira on usuario.num_carteira = carteira.id order by quantidade desc")->result();
+        return $this->db->query("select nome,quantidade from usuario order by quantidade desc")->result();
     }
 
+    public function resposta(){
+        
+        $this->db->select('*');
+        $this->db->from('resposta');
+    
+      
+        
+        
+        $resposta = $this->db->get();
 
+        if($resposta->num_rows()==1){
+            return $login->row();
+        }else{
+            return false;
+        }
+
+    }
+    public function transferencia($dados){
+        
+        return("update usuario set quantidade = 'quantidade+quantidade' where carteira = 'carteira'");
+    
+    }
 
 }

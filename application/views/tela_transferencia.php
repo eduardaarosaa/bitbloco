@@ -5,15 +5,20 @@
     <p class="lead">Você pode realizar transferências de bitcoin, basta ter o número da carteira de quem deseja enviar, fácil e rápido.</p>
     <hr class="my-4">
     <p>Realize suas transações preencha os campos abaixo.</p>
-    <form>
+    <?php
+         		    echo form_open_multipart('Welcome/transferencia');
+           		?>
+
       <div class="form-group">
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o número da carteira">
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="carteira"placeholder="Digite o número da carteira">
       </div>
       <div class="form-group">
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite a quantidade de bitcoins">
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="quantidade" placeholder="Digite a quantidade de bitcoins">
       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+      <?php
+ 					 echo form_close();
+ 			 		?>
   </div>
 </div>
      </div>
