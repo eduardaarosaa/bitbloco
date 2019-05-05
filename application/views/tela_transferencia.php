@@ -10,11 +10,12 @@
            		?>
 
       <div class="form-group">
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="carteira"placeholder="Digite o número da carteira">
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="carteira" placeholder="Digite o número da carteira">
       </div>
       <div class="form-group">
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="quantidade" placeholder="Digite a quantidade de bitcoins">
-      </div>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="quantidade_btc" placeholder="Digite uma quantidade de bitcoins">
+
+       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
       <?php
  					 echo form_close();

@@ -7,9 +7,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon"  href="../../img/logo.png" />
+	<link rel="icon"  href="../../image/logo.png" />
 
-	<title>BLOCO1</title>
+	<title>Bitbloco</title>
    <!--Made with love by Mutiullah Samim -->
    
 	<!--Bootsrap 4 CDN-->

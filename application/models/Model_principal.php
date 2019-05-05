@@ -37,26 +37,40 @@ class Model_principal extends CI_Model{
         return $this->db->query("select nome,quantidade from usuario order by quantidade desc")->result();
     }
 
-    public function resposta(){
+    public function resposta($dados){
+
+       // var_dump($dados);
         
         $this->db->select('*');
         $this->db->from('resposta');
+        $this->db->where('resposta',$dados['resposta']);
     
-      
+
         
         
         $resposta = $this->db->get();
 
+       // var_dump($resposta);
+
         if($resposta->num_rows()==1){
-            return $login->row();
+            return $resposta->row();
+            //var_dump($resposta);
+            
         }else{
             return false;
         }
 
+
     }
-    public function transferencia($dados){
-        
-        return("update usuario set quantidade = 'quantidade+quantidade' where carteira = 'carteira'");
+    public function transferencia($data){
+
+        //$this->db->where('carteira', $data['carteira']);
+        //$this->db->set('quantidade', $data['quantidade = quantidade+quantidade_btc']);
+        //return $this->db->update('usuario');
+
+         
+     return("update usuario set quantidade = quantidade+10 where carteira = 'carteira'");
+       
     
     }
 

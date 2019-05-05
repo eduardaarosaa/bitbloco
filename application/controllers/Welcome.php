@@ -205,13 +205,14 @@ class Welcome extends CI_Controller {
 							'resposta' => $this->input->post('resposta')
 						
 						);
-
-						$dados['dados'] = $this->Model_principal->resposta();
+						//var_dump($dados);
+						
+						$dados['dados'] = $this->Model_principal->resposta($dados);
 
 					
 							
 
-						if ($dados = false){
+						if ($resposta = false){
 							$this->load->view('errou');
 						}else{
 						$this->load->view('acertou');
@@ -219,19 +220,19 @@ class Welcome extends CI_Controller {
 					}
 	}
 	public function transferencia(){
-		$data = 'null';
+		//$data = 'null';
 		$this->form_validation->set_rules('carteira', 'o campo carteira é obrigatório', 'required');
-		$this->form_validation->set_rules('quantidade','o campo quantidade é obrigatório', 'required');
+		$this->form_validation->set_rules('quantidade_btc','o campo quantidade é obrigatório', 'required');
 		
 		if($this->form_validation->run()==true){
 			
 			$data = array(
 				'carteira' => $this->input->post('carteira'),
-				'quantidade' => $this->input->post('quantidade'),
+				'quantidade_btc' => $this->input->post('quantidade_btc'),
 			   
 			);
 
-			var_dump($data);
+			//var_dump($data);
 
 			$this->Model_principal->transferencia($data);
 			redirect("Welcome/tela_carteira", 'redirect');

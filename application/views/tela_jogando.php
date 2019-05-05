@@ -1,4 +1,5 @@
 
+
 			<div class="col-1 divEspaco">
 				
 
@@ -12,26 +13,28 @@
 
                 <?php
                                     
-                echo form_open_multipart('Welcome/resposta');
+               //echo form_open_multipart('Welcome/resposta');
                                     
-                $array = get_object_vars($dados[0]);
+                //$array = get_object_vars($dados[0]);
 
 
                 //var_dump($array);
                 
-                foreach($array as $row){
-                    echo $row;
+                //foreach($array as $row){
+                  //  echo $row;
                    
-                }
+                //}
 
                 
                 ?>
-                <input type='text' name='reposta'>
+                <form name="form1">
+                <input type='text' name='resposta'>
 
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+                <input type="button" value="Gravar" onclick="resposta()"><br>
 
+                </form>
                 <?php
- 					 echo form_close ();
+ 				//	 echo form_close ();
  			 		?>
         </div>
 				
@@ -44,4 +47,8 @@
             <div class="col-12 divEspaço"></div>
 
         </div>
+<script src="../../js/script.js">
 
+
+
+</script>

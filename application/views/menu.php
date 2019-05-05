@@ -8,7 +8,7 @@
                     <li> <a href="tela_principal">Home</a> </li>	
                     <li> <a href="tela_perfil">Perfil</a> </li>
                     <li> <a href="tela_carteira">Carteira</a> </li>
-                    <li> <a href="tela_transferencia">Transferência</a> </li>
+                    <li> <a href="../../transferencia.php">Transferência</a> </li>
                     <li> <a href="tela_simulacao">Prova de trabalho</a> </li>
                     <br>
                     <br>

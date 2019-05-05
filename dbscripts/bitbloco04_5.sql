@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 21-Abr-2019 às 05:17
+-- Generation Time: 05-Maio-2019 às 04:37
 -- Versão do servidor: 10.1.37-MariaDB
 -- versão do PHP: 7.3.0
 
@@ -78,8 +78,8 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`cod`, `nome`, `email`, `senha`, `carteira`, `quantidade`) VALUES
-(1, 'Eduarda Cirina Rosa', 'eduardacirina@gmail.com', '123', 1811256281, 1),
-(2, 'Milena', 'milena03rosa@gmail.com', '123', 888844932, 11);
+(1, 'Eduarda Cirina Rosa', 'eduardacirina@gmail.com', '123', 1811256281, 11),
+(2, 'Milena', 'milena03rosa@gmail.com', '123', 888844932, 2);
 
 --
 -- Indexes for dumped tables
