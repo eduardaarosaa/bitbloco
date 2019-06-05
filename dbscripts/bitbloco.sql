@@ -21,7 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `bitbloco`
 --
-
+CREATE database bitbloco;
+use bitbloco;
 -- --------------------------------------------------------
 
 --

@@ -19,8 +19,9 @@ $link = mysqli_connect('localhost','root','','bitbloco');
 
 $carteira = $_POST['carteira'];
 $resposta = $_POST['resposta'];
+$resposta1 = $_POST['resposta1'];
 
-if($resposta == 3){
+if($resposta == 3 and $resposta1 == 114){
 
     echo "Parabéns!! Você ganhou um bitcoin";
 
